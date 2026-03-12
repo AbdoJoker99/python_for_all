@@ -20,8 +20,13 @@ echo Installing dependencies from requirements.txt...
 call %PYTHON% -m pip install -r requirements.txt
 
 echo.
+echo Installing and configuring nbstripout for notebook output stripping...
+call %PYTHON% -m pip install --upgrade nbstripout
+call %PYTHON% -m nbstripout --install --global
+
+echo.
 echo ============================================
-echo Virtual environment setup complete!
+echo Virtual environment setup complete! nbstripout configured.
 echo ============================================
 echo.
 echo To activate the virtual environment manually, run:
