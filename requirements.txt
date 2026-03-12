@@ -1,0 +1,23 @@
+# Python dependencies for CV/Python tutorials project
+
+# Visualization
+matplotlib>=3.5.0
+pygal>=2.4.0
+pygal_maps_world>=1.0.0  # For world maps in pygal_advanced
+
+# Games
+pygame>=2.0.0
+
+# Data/Testing
+# json  # Built-in, for test_json.py
+
+# Development (VSCode/Jupyter)
+jupyter
+ipykernel
+notebook
+ipywidgets
+
+# Optional: Linting/Format
+black
+flake8
+isort
