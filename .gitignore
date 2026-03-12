@@ -70,6 +70,10 @@ ENV/
 ehthumbs.db
 Thumbs.db
 
+# Large notebook outputs (optional - uncomment if desired)
+# *.ipynb_checkpoints/*
+# **/*.ipynb (use script instead)
+
 # Dependencies
 venv/
 

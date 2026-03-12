@@ -20,10 +20,6 @@ echo Installing dependencies from requirements.txt...
 call %PYTHON% -m pip install -r requirements.txt
 
 echo.
-echo Installing imageio-ffmpeg (includes ffmpeg binary)...
-call %PYTHON% -m pip install imageio-ffmpeg
-
-echo.
 echo ============================================
 echo Virtual environment setup complete!
 echo ============================================
